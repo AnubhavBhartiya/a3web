@@ -1,15 +1,27 @@
-Task is divided into several categories:
+Task Division Report
+Travel Consultancy Website
+Group 5: 
+Members: 
+- Meet Naik
+- Ming Su
+- Anubhav Bhartiya
 
-Base Template: Taken from Meet Naik's Personal Website
-Basic Modifications on the initial stage: 
-        Changes in the Navbar
-        Addition of Footer
-        additional items which would be common through the website
-Setup of Individual Pages
-          P.1
-          P.2
-          P.3
-          P.4
-          P.5
-          P.6
-Laying out the Styling Section 
+Base Template taken from Meet's Personal Website
+
+Content Source: Meet Naik 
+Image Contribution: Anubhav and Meet
+CSS and Java Management: Ming
+Font Styling: Ming 
+Navbar and Footer: Anubhav  
+Formatting and Resizing: Anubhav
+Final Proofing: Collaborative (3)
+Comments: Collaborative (3)
+
+Cover Page Designing: Ming 
+Rest Page Content Layout: Meet
+
+GitHub Setup and Sync: Started and In Progress (All Group Members added and DATA Repository Setup done)
+Resetting the Template: Saturday (19/11/2022)
+Setting up the Common Features (Navbar and Footers): Monday (21/11/2022)
+Content Collection: Monday (21/11/2022)
+Layout Heading wise: Wednesday (23/11/2022)
