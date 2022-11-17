@@ -8,7 +8,7 @@
 
 ###Base Template taken from Meet's Personal Website
 
-###Content Source: Meet Naik 
+###Content Source: Meet 
 ###Image Contribution: Anubhav and Meet
 ###CSS and Java Management: Ming
 ###Font Styling: Ming 
