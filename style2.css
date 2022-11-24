@@ -72,7 +72,7 @@ body {
 /* background Image assigned covering max of 95% hight of the viewport with images aligned to center of the screen */ 
 
 .bg-image {
-  background-image: url("bgimage");
+  background-image: url("bgimage.jpg");
   height: 95vh;
   background-position: center;
   background-repeat: no-repeat;
