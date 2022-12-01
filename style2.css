@@ -158,3 +158,42 @@ h4 {
    color: black;
    text-align: center;
 }
+
+
+/* styling for the trek frames */
+
+.my-5{
+  margin-top: 3rem!important;
+    margin-bottom: 3rem!important;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pb-08 {
+    padding-bottom: 0.8rem;
+}
+.mb-4 {
+    margin-bottom: 1.5rem!important;
+}
+
+.align-items-end {
+    align-items: flex-end!important;
+}
+.flex-wrap {
+    flex-wrap: wrap!important;
+}
+.d-flex {
+    display: flex!important;
+}
+
+
