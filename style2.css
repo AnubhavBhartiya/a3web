@@ -207,15 +207,34 @@ p.thick {
 	font-weight: bold;
 }
 
-<<<<<<< HEAD
-/* responsive image gallery styling */
+.parallax {
+  /* The image used */
+  background-image: url("bgimage.jpg");
+
+  /* Set a specific height */
+  min-height: 800px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallaxtext{
+  height:1000px;
+  background-color:rgb(255, 255, 255);
+  font-size:36px;
+}
+
+/* responsive image grid styling */
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  margin: 2;
+  margin: 0;
   font-family: Arial;
 }
 
@@ -249,7 +268,6 @@ body {
     max-width: 50%;
   }
 }
-
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
@@ -257,24 +275,4 @@ body {
     flex: 100%;
     max-width: 100%;
   }
-=======
-.parallax {
-  /* The image used */
-  background-image: url("bgimage.jpg");
-
-  /* Set a specific height */
-  min-height: 800px; 
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
->>>>>>> cfd4d61d1a55b45e618fb913b3f41e3c95ef4260
-}
-
-.parallaxtext{
-  height:1000px;
-  background-color:rgb(255, 255, 255);
-  font-size:36px;
 }
