@@ -130,6 +130,10 @@ h4 {
 }
 
 
+p {
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 /* Portfolio Image gallery row & Column boundary fixxing to keep it in line visually */
 /* reference source : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_image_grid */
 /* modification done to row-column grids and instead of multiple options for layout */
@@ -163,7 +167,7 @@ h4 {
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: dodgerblue;
+   background-color: #21639e;
    color: black;
    text-align: center;
 }
@@ -220,9 +224,39 @@ p.thick {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+  /* parallax text */
 .parallaxtext{
   height:1000px;
   background-color:rgb(255, 255, 255);
   font-size:36px;
+}
+
+.trip {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-left: 20px;
+}
+
+.trip tr:nth-child(odd){background-color: #f2f2f2;}
+
+.trip td, #trip1 th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.trip tr:nth-child(odd){background-color: #f2f2f2;}
+
+
+.trip th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #21639e;
+  color: white;
+}
+
+/* Trip highlight list */
+ul {
+  list-style: circle;
 }
