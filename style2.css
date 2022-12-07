@@ -121,6 +121,7 @@ h4 {
   letter-spacing: 2px;
 }
 
+
 /* Portfolio Image gallery row & Column boundary fixxing to keep it in line visually */
 /* reference source : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_image_grid */
 /* modification done to row-column grids and instead of multiple options for layout */
@@ -198,6 +199,22 @@ p.thick {
 	font-weight: bold;
 }
 
+.parallax {
+  /* The image used */
+  background-image: url("bgimage.jpg");
 
+  /* Set a specific height */
+  min-height: 800px; 
 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.parallaxtext{
+  height:1000px;
+  background-color:rgb(255, 255, 255);
+  font-size:36px;
+}
