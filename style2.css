@@ -103,22 +103,31 @@ h1 {
   color: #21639e;
   font-size: 50px;
   letter-spacing: 5px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 h2 {
-  color: #21639e;
+  color: #e7d84a;
   font-size: 30px;
   letter-spacing: 3px;
-  padding: 32px;
+  padding: 20px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 h3 {
   color: #21639e;
   font-size: 20px;
   letter-spacing: 2px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 h4 {
   color: #21639e;
   font-size: 15px;
   letter-spacing: 2px;
+  padding: 20px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 /* Portfolio Image gallery row & Column boundary fixxing to keep it in line visually */
