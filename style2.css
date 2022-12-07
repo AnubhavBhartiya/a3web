@@ -159,41 +159,45 @@ h4 {
    text-align: center;
 }
 
+/* styling for preparing cards which will be used as links to all the trip pages */
 
-/* styling for the trek frames */
-
-.my-5{
-  margin-top: 3rem!important;
-    margin-bottom: 3rem!important;
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition:0.3s;
+	width: 50%;
 }
-
-*, :after, :before {
-    box-sizing: border-box;
-}
-
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    width: 100%;
-    padding-right: var(--bs-gutter-x,.75rem);
-    padding-left: var(--bs-gutter-x,.75rem);
-    margin-right: auto;
-    margin-left: auto;
+    
+.container {
+	padding: 2px 16px;
 }
 
-.pb-08 {
-    padding-bottom: 0.8rem;
+/* Styling for Text blocks over background image */
+
+.hero-image {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("bgimage.jpg");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
 }
-.mb-4 {
-    margin-bottom: 1.5rem!important;
+  
+.hero-text {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 30px;
+    letter-spacing: 3px;
+    padding: 5px;
+	color: white;
 }
 
-.align-items-end {
-    align-items: flex-end!important;
+p.thick {
+	font-weight: bold;
 }
-.flex-wrap {
-    flex-wrap: wrap!important;
-}
-.d-flex {
-    display: flex!important;
-}
+
+
 
 
