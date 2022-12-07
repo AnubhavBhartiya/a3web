@@ -203,23 +203,32 @@ h1 {
   color: #21639e;
   font-size: 50px;
   letter-spacing: 5px;
+  text-justify: inter-word;
 }
 h2 {
-  color: #21639e;
+  color: #e7d84a;
   font-size: 30px;
   letter-spacing: 3px;
-  padding: 32px;
+  padding: 20px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 h3 {
   color: #21639e;
   font-size: 20px;
   letter-spacing: 2px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 h4 {
   color: #21639e;
   font-size: 15px;
   letter-spacing: 2px;
+  padding: 20px;
+  text-align: justify;
+  text-justify: inter-word;
 }
+
 
 /* Portfolio Image gallery row & Column boundary fixxing to keep it in line visually */
 /* reference source : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_image_grid */
@@ -227,25 +236,25 @@ h4 {
 /* since images to be uploaded were limited, I chose just 2 columns */
 /* since the sizes of the images were not similar, to make it visually neater I used flexible wrapping vis ms-flex */
 
-.row {
+.rowcard {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding: 0 15%;
 }
-.column {
+.columncard {
   -ms-flex: 50%;
   flex: 50%;
   padding: 0 4px;
 }
-.column img {
+.columncard img {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
   opacity: 0.5;
 }
-.column img:hover{
+.columncard img:hover{
   opacity: 1;
 }
 
@@ -298,6 +307,74 @@ p.thick {
 	font-weight: bold;
 }
 
+<<<<<<< HEAD
+/* responsive image gallery styling */
 
+* {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 2;
+  font-family: Arial;
+}
 
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+=======
+.parallax {
+  /* The image used */
+  background-image: url("bgimage.jpg");
+
+  /* Set a specific height */
+  min-height: 800px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+>>>>>>> cfd4d61d1a55b45e618fb913b3f41e3c95ef4260
+}
+
+.parallaxtext{
+  height:1000px;
+  background-color:rgb(255, 255, 255);
+  font-size:36px;
+}
