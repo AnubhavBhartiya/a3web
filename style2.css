@@ -176,6 +176,10 @@ h4 {
 }
 
 
+p {
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 /* Portfolio Image gallery row & Column boundary fixxing to keep it in line visually */
 /* reference source : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_image_grid */
 /* modification done to row-column grids and instead of multiple options for layout */
@@ -209,7 +213,7 @@ h4 {
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: dodgerblue;
+   background-color: #21639e;
    color: black;
    text-align: center;
 }
@@ -266,59 +270,40 @@ p.thick {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+  /* parallax text */
 .parallaxtext{
   height:1000px;
   background-color:rgb(255, 255, 255);
   font-size:36px;
 }
 
-/* responsive image grid styling */
 
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial;
-}
-
-.row {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-/* Create four equal columns that sits next to each other */
-.column {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
+.trip {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
   width: 100%;
+  margin-left: 20px;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
+.trip tr:nth-child(odd){background-color: #f2f2f2;}
+
+.trip td, #trip1 th {
+  border: 1px solid #ddd;
+  padding: 8px;
 }
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
+
+.trip tr:nth-child(odd){background-color: #f2f2f2;}
+
+
+.trip th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #21639e;
+  color: white;
+}
+
+/* Trip highlight list */
+ul {
+  list-style: circle;
 }
