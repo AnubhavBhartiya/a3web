@@ -365,7 +365,7 @@ body {
 body {font-family: Verdana, sans-serif; margin:0;
     background: #f2709c;  
     background: -webkit-linear-gradient(to right, #ff9472, #f2709c);  
-    background: linear-gradient(to right, #ff9472, #f2709c);*/ 
+    background: linear-gradient(to right, #ff9472, #f2709c); 
 }
 .mySlides {display: none}
 img {vertical-align: middle;
