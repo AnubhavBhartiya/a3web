@@ -242,13 +242,14 @@ p4 {
 }
 
 .footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
+   
    background-color: #21639e;
    color: black;
    text-align: center;
+   min-height:10vh;
+   display:flex;
+   flex-direction:column;
+   justify-content:space-between;
 }
 
 /* styling for preparing cards which will be used as links to all the trip pages */
