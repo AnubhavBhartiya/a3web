@@ -410,7 +410,7 @@ img {vertical-align: middle;}
 /* Video */
 
 video {
-  width: 100%;
+  width: 90%;
   height: auto;
 }
 
@@ -423,10 +423,10 @@ video {
 [class*="col-"] {
   float: left;
   padding: 15px;
-  width: 100%;
+  width: 90%;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 700px) {
   .col-s-1 {width: 8.33%;}
   .col-s-2 {width: 16.66%;}
   .col-s-3 {width: 25%;}
