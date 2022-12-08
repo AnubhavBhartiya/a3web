@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang = en>
 
+<head>
 <link rel="stylesheet" href="style2.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OurTrip</title>
 </head>
 <body>
 
@@ -32,58 +33,66 @@
     </div>
 </div>
   
+<h2>Our Trips</h2>
+
 <div class="body-text">
-  <h2>Architecture</h2>
+<div class="p3">
   <p>"I design for the Present, with an awareness of the past, for a future which is essentially unknown."</p> 
+</div>
+</div>
+
+<div class="rowcard"> 
+  <div class="columncard">
+    <a href="Trip1.html">
+    <div class="card">
+      <img src="bgimage.jpg" alt="img1" style="width:100%">
+      <div class="container">
+        <h2>Ladakh</h2>
+        <div class="p4">(Motorcycle ride)</div>
+      </div>
+    </div>
+    </a> 
+  </div>
+  <div class="columncard">
+    <a href="Trip2.html">
+    <div class="card">
+      <img src="bgimage.jpg" alt="Avatar" style="width:100%">
+      <div class="container">
+        <h2>Spiti</h2>
+        <div class="p4">(Motorcycle ride)</div>
+      </div>
+    </div>
+    </a>
+  </div> 
+  <div class="columncard">
+    <a href="Trip3.html">
+    <div class="card">
+      <img src="bgimage.jpg" alt="Avatar" style="width:100%">
+      <div class="container">
+        <h2>Kedarkantha</h2>
+        <div class="p4">(High Altitude trek)</div>
+      </div>
+    </div>
+    </a> 
+  </div>
+  <div class="columncard">
+    <a href="Trip4.html">
+    <div class="card">
+      <img src="BoisBlancIsland/BBI8.jpeg" alt="Avatar" style="width:100%">
+      <div class="container">
+        <h2>Essex County</h2>
+        <div class="p4">(Leisure Trip)</div>
+      </div>
+    </div>
+    </a>
+  </div>   
 </div>
 
 
-<style>
-  * {box-sizing: border-box}
-  .mySlides1, .mySlides2 {display: none}
-  img {vertical-align: middle;}
   
-  /* Slideshow container */
-  .slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-  }
+  <h2 style="text-align:center">Some Memories from past trips</h2>
   
-  /* Next & previous buttons */
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
   
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a grey background color */
-  .prev:hover, .next:hover {
-    background-color: #f1f1f1;
-    color: black;
-  }
-  </style>
-  </head>
-  <body>
-  
-  <h2 style="text-align:center">Multiple Slideshows</h2>
-  
-  <p>Slideshow 1:</p>
   <div class="slideshow-container">
     <div class="mySlides1">
       <img src="Ladakh/L1.JPG" style="width:100%">
@@ -96,49 +105,51 @@
     <div class="mySlides1">
       <img src="Ladakh/L3.JPG" style="width:100%">
     </div>
-  
-    <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
-  </div>
-  
-  <p>Slideshow 2:</p>
-  <div class="slideshow-container">
-    <div class="mySlides2">
+
+    <div class="mySlides1">
       <img src="Ladakh/L4.JPG" style="width:100%">
     </div>
-  
-    <div class="mySlides2">
+
+    <div class="mySlides1">
       <img src="Ladakh/L5.JPG" style="width:100%">
     </div>
-  
-    <div class="mySlides2">
+
+    <div class="mySlides1">
       <img src="Ladakh/L6.JPG" style="width:100%">
     </div>
-  
-    <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+
+    <div class="mySlides1">
+      <img src="Ladakh/L7.JPG" style="width:100%">
+    </div>
+
+    <div class="mySlides1">
+      <img src="Ladakh/L8.JPG" style="width:100%">
+    </div>
+
+    <div class="mySlides1">
+      <img src="Ladakh/L9.JPG" style="width:100%">
+    </div>
+
+    <div class="mySlides1">
+      <img src="Ladakh/L10.JPG" style="width:100%">
+    </div>
+    <script  src="style.js"></script>
+    <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+    
   </div>
   
-  <script>
-  let slideIndex = [1,1];
-  let slideId = ["mySlides1", "mySlides2"]
-  showSlides(1, 0);
-  showSlides(1, 1);
+  <div class="video">
+  <video width="1280" height="720" controls>
+    <source src="GangaAarti.mp4" type="video/mp4">
+        Your browser does not support HTML video.
+  </video>
+  </div>
   
-  function plusSlides(n, no) {
-    showSlides(slideIndex[no] += n, no);
-  }
+
+  <div class="footer">
+    <p>Footer</p>
+   </div>
   
-  function showSlides(n, no) {
-    let i;
-    let x = document.getElementsByClassName(slideId[no]);
-    if (n > x.length) {slideIndex[no] = 1}    
-    if (n < 1) {slideIndex[no] = x.length}
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    x[slideIndex[no]-1].style.display = "block";  
-  }
-  </script>
 </body>
 </html>
