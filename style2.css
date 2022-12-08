@@ -239,6 +239,10 @@ p4 {
   opacity: 1;
 }
 
+.tab {
+  margin-left: 2.5em
+ }
+ 
 .footer {
    
    background-color: #21639e;
