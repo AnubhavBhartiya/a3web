@@ -8,16 +8,20 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Navigation Bar styling for responsive design */
+/* Navigation Bar styling for responsive design Anubhav Bhartiya */
 
 * {
   box-sizing: border-box;
 }
 
+/* Setting up the Body for the static NavBar Anubhav Bhartiya */
+
 body {
   margin: 0px;
   font-family: 'segoe ui';
 }
+
+/* Setting up the Background Colour and sizing-spacing oof the layout of the navbar Anubhav Bhartiya */
 
 .nav {
   height: 50px;
@@ -37,20 +41,12 @@ body {
   padding: 10px 10px 10px 10px;
 }
 
-.nav > .nav-logo {
-  display: inline-block;
-    vertical-align: top;
-    width: 47px;
-    height: 47px;
-    margin-right: 0px;
-    margin-top:0px; 
-    
-}
+/* This Function sets up the Buttons which can be selected to navigate through Anubhav Bhartiya */
 
 .nav > .nav-btn {
   display: none;
 }
-
+/* Links attached to the Nav Bar Buttons Anubhav Bhartiya */
 .nav > .nav-links {
   display: inline;
   float: right;
@@ -63,7 +59,7 @@ body {
   text-decoration: none;
   color: #efefef;
 }
-
+/* Changes of the shade and colour once you hover the mouse over the button Anubhav Bhartiya */
 .nav > .nav-links > a:hover {
   background-color: rgba(0, 0, 0, 0.3);
 }
@@ -71,7 +67,7 @@ body {
 .nav > #nav-check {
   display: none;
 }
-
+/* Responsiveness followed by the Hamburger styling of the NavBar Anubhav Bhartiya */
 @media (max-width:700px) {
   .nav > .nav-btn {
     display: inline-block;
@@ -447,6 +443,7 @@ body {
 }
 
 /* Image slider CSS*/
+/* Image Carousel for a better and efficient stacking of images in a single frame Anubhav Bhartiya*/
 * {box-sizing: border-box}
 .mySlides1, .mySlides2 {display: none}
 img {
@@ -455,14 +452,14 @@ max-width:100%;
 max-height:100%;
 }
 
-/* Slideshow container */
+/* Slideshow container- Major box where all the images will be displayed Anubhav Bhartiya  */
 .slideshow-container {
   max-width: 80%;
   position: relative;
   margin: auto;
 }
 
-/* Next & previous buttons */
+/* Next & previous buttons to toggle through the images Anubhav Bhartiya*/
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -478,19 +475,19 @@ max-height:100%;
   user-select: none;
 }
 
-/* Position the "next button" to the right */
+/* Position the "next button" to the right Anubhav Bhartiya */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a grey background color */
+/* On hover, add a grey background color Anubhav Bhartiya */
 .prev:hover, .next:hover {
   background-color: #f1f1f1;
   color: black;
 }
 
-/* Video */
+/* Video SCreen with controls to play and pause the video Anubhav Bhartiya */
 
 .video {
   
@@ -508,6 +505,8 @@ max-height:100%;
   padding: 15px;
   width: 90%;
 }
+
+/* Responsiveness of the Video Frame Anubhav Bhartiya*/
 
 @media only screen and (min-width: 700px) {
   .col-s-1 {width: 8.33%;}

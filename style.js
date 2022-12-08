@@ -1,3 +1,5 @@
+// Java script Code to make the Loading and Scrolling of images more efficient in the Carousel Anubhav Bhartiya
+
 let slideIndex = [1,1];
 let slideId = ["mySlides1", "mySlides2"]
 showSlides(1, 0);
