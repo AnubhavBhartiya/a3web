@@ -273,7 +273,7 @@ h4 {
 /* Styling for Text blocks over background image */
 
 .hero-image1 {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("bgimage.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("Ladakh/L1");
 	height: 50%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -282,7 +282,25 @@ h4 {
 }
 
 .hero-image2 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("Spiti/S1");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.hero-image3 {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("Kedarkantha/KK11.jpg");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.hero-image4 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("BoisBlancIsland/BBI1");
 	height: 50%;
 	background-position: center;
 	background-repeat: no-repeat;
