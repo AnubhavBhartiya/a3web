@@ -272,7 +272,7 @@ h4 {
 
 /* Styling for Text blocks over background image */
 
-.hero-image {
+.hero-image1 {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("bgimage.jpg");
 	height: 50%;
 	background-position: center;
@@ -280,7 +280,16 @@ h4 {
 	background-size: cover;
 	position: relative;
 }
-  
+
+.hero-image2 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("Kedarkantha/KK11.jpg");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
 .hero-text {
 	text-align: center;
 	position: absolute;
