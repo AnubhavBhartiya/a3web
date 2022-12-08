@@ -4,7 +4,7 @@
 /* fonts for the entire webpage fixed to Arial, Helvetica, sans-serif */
 
 body { 
-  margin: 0;
+  margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -148,10 +148,12 @@ body, html {
   height: 100%;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .body-text {
-  text-align: center;
+  text-align: justify;
   padding: 20px;
 }
+
 h1 {
   color: #ffffffc7;
   font-size: 50px;
@@ -186,7 +188,6 @@ p1 {
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
   color: #d8d64f;
-  text-align: justify;
   letter-spacing: 2px;
 }
 
@@ -194,7 +195,6 @@ p2 {
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
   color: #5ee2e2;
-  text-align: justify;
   letter-spacing: 2px;
 }
 
@@ -202,14 +202,12 @@ p3 {
   font-size: 20px;
   color: #c24c4c;
   letter-spacing: 1px;
-  text-align: justify;
 }
 
 p4 {
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   color: #d177c2;
-  text-align: justify;
   letter-spacing: 1px;
 }
 
