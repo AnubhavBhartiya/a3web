@@ -168,13 +168,16 @@ h2 {
   text-align: justify;
   text-justify: inter-word;
 }
+
 h3 {
   color: #ffffffc7;
   font-size: 20px;
   letter-spacing: 5px;
+  padding: 20px;
   text-align: center;
   text-justify: inter-word;
 }
+
 h4 {
   color: #21639e;
   font-size: 15px;
@@ -264,6 +267,7 @@ h4 {
     
 .container {
 	padding: 2px 16px;
+  text-align: center;
 }
 
 /* Styling for Text blocks over background image */
