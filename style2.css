@@ -341,14 +341,13 @@ p.thick {
 	font-weight: bold;
 }
 
+/* Create the parallax scrolling effect Mingxuan Su*/
 .parallax {
   /* The image used */
   background-image: url("Visuals/bgimage.jpg");
 
   /* Set a specific height */
   min-height: 800px; 
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -364,6 +363,7 @@ p.thick {
   padding: 20px;
 }
 
+/* itinerry table Mingxuan Su*/
 .trip {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
@@ -378,7 +378,7 @@ p.thick {
   padding: 8px;
 }
 
-.trip tr:nth-child(odd){background-color: #f2f2f2;}
+.trip tr:nth-child(even){background-color: #cfcfcf;}
 
 
 .trip th {
@@ -387,6 +387,7 @@ p.thick {
   color: white;
   padding: 10px;
 }
+/* itinerry table end*/
 
 /* Trip highlight list */
 ul {
