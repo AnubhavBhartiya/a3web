@@ -44,6 +44,7 @@ body {
     height: 47px;
     margin-right: 0px;
     margin-top:0px; 
+    
 }
 
 .nav > .nav-btn {
@@ -250,24 +251,24 @@ padding: 20px;
   padding: 0 4px;
 }
 .columncard img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-  opacity: 0.5;
+  margin-top:8px;
+  vertical-align:middle;
+  width:100%;
+  opacity:0.5;
 }
 .columncard img:hover{
-  opacity: 1;
+  opacity:1;
 }
 
 .tab {
-  margin-bottom: 1.0em;
+  margin-bottom:1.0em;
  }
 
 .footer {
    
    background-color: #21639e;
-   color: black;
-   text-align: center;
+   color:black;
+   text-align:center;
    min-height:10vh;
    display:flex;
    flex-direction:column;
@@ -417,7 +418,7 @@ body {
 .column {
   -ms-flex: 25%; /* IE10 */
   flex: 25%;
-  max-width: 25%;
+  max-width: 100%;
   padding: 0 4px;
 }
 
