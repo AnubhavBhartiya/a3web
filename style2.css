@@ -174,7 +174,7 @@ h2 {
   font-size: 30px;
   letter-spacing: 5px;
   padding: 20px;
-  text-align: justify;
+  text-align: center;
   text-justify: inter-word;
 }
 
@@ -289,8 +289,26 @@ padding: 20px;
 
 /* Styling for Text blocks over background image */
 
-.hero-image {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("bgimage.jpg");
+.trip1image {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("Ladakh/L5.JPG");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.trip2image {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("Spiti/S2.jpg");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.trip3image {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("Kedarkantha/KK9.jpg");
 	height: 50%;
 	background-position: center;
 	background-repeat: no-repeat;
