@@ -142,7 +142,7 @@ body {
   text-align: center;
 }
 
-/* Body Font Styling */
+/* * * * * * Body Font Styling * * * * */ 
 
 body, html {
   height: 100%;
@@ -153,13 +153,13 @@ body, html {
   padding: 20px;
 }
 h1 {
-  color: #ffffff;
+  color: #ffffffc7;
   font-size: 50px;
   letter-spacing: 5px;
   text-justify: inter-word;
 }
 h2 {
-  color: #e7d84a;
+  color: #21639e;
   font-size: 30px;
   letter-spacing: 5px;
   padding: 20px;
@@ -167,26 +167,52 @@ h2 {
   text-justify: inter-word;
 }
 h3 {
-  color: #21639e;
+  color: #ffffffc7;
   font-size: 20px;
   letter-spacing: 5px;
-  text-align: justify;
+  text-align: center;
   text-justify: inter-word;
 }
 h4 {
-  color: #ffffff;
+  color: #21639e;
   font-size: 15px;
   letter-spacing: 5px;
   padding: 20px;
-  text-align: justify;
+  text-align: center;
   text-justify: inter-word;
 }
 
-
-p {
-  padding: 20px;
+p1 {
+  font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
+  color: #d8d64f;
+  text-align: justify;
+  letter-spacing: 2px;
 }
+
+p2 {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #5ee2e2;
+  text-align: justify;
+  letter-spacing: 2px;
+}
+
+p3 {
+  font-size: 20px;
+  color: #c24c4c;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+
+p4 {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #d177c2;
+  text-align: justify;
+  letter-spacing: 1px;
+}
+
 /* Portfolio Image gallery row & Column boundary fixxing to keep it in line visually */
 /* reference source : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_image_grid */
 /* modification done to row-column grids and instead of multiple options for layout */
@@ -279,9 +305,12 @@ p.thick {
 }
   /* parallax text */
 .parallaxtext{
-  height:1000px;
+  height:600px;
   background-color:rgb(255, 255, 255);
   font-size:36px;
+  text-align: justify;
+  padding: 20px;
+
 }
 
 
