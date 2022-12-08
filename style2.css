@@ -409,9 +409,10 @@ img {vertical-align: middle;}
 
 /* Video */
 
-video {
+.video {
   width: 90%;
   height: auto;
+  text-align:center
 }
 
 .row:after {
