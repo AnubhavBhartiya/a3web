@@ -40,9 +40,10 @@ body {
 .nav > .nav-logo {
   padding: 0px;
   margin: 0px;
-  text-align: center;
+  text-align: left;
   display:inline-block;
   vertical-align:top;
+  position:absolute;
 }
 
 .nav > .nav-btn {
