@@ -281,7 +281,7 @@ padding: 20px;
 /* Styling for Text blocks over background image */
 
 .hero-image {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("Ladakh/L11");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("Ladakh/L11.jpg");
 	height: 50%;
 	background-position: center;
 	background-repeat: no-repeat;
