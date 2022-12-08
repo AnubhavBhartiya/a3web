@@ -412,7 +412,7 @@ img {vertical-align: middle;}
 .video {
   width: 90%;
   height: auto;
-  text-align:center
+  align:center
 }
 
 .row:after {
