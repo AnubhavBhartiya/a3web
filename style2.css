@@ -214,6 +214,14 @@ h4 {
   letter-spacing: 1px;
 }
 
+/*trip 4 paragraph*/
+.p5 {
+color: #000000;
+font-size: 16px;
+font-family: Arial, Helvetica, sans-serif;
+padding: 20px;
+}
+
 /* Portfolio Image gallery row & Column boundary fixxing to keep it in line visually */
 /* reference source : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_image_grid */
 /* modification done to row-column grids and instead of multiple options for layout */
@@ -394,7 +402,7 @@ body {
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
-  padding: 0 4px;
+  padding: 0 15px;
 }
 
 /* Create four equal columns that sits next to each other */
