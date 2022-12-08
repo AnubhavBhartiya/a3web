@@ -364,11 +364,10 @@ p.thick {
 
 
 .trip th {
-  padding-top: 12px;
-  padding-bottom: 12px;
   text-align: left;
   background-color: #21639e;
   color: white;
+  padding: 10px;
 }
 
 /* Trip highlight list */
