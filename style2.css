@@ -37,6 +37,14 @@ body {
   padding: 10px 10px 10px 10px;
 }
 
+.nav > .nav-logo {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display:inline-block;
+  vertical-align:top;
+}
+
 .nav > .nav-btn {
   display: none;
 }
