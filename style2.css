@@ -137,7 +137,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  width: 80%;
+  width: 90%;
   padding: 20px;
   text-align: center;
 }
@@ -157,7 +157,7 @@ body, html {
 h1 {
   color: #ffffffc7;
   font-size: 50px;
-  letter-spacing: 5px;
+  letter-spacing: 4px;
   text-justify: inter-word;
 }
 h2 {
@@ -198,7 +198,7 @@ h4 {
   letter-spacing: 2px;
 }
 
-p {
+.p3 {
   font-size: 20px;
   color: #c24c4c;
   letter-spacing: 1px;
@@ -307,15 +307,14 @@ p.thick {
   background-size: cover;
 }
   /* parallax text */
+
 .parallaxtext{
   height:600px;
   background-color:rgb(255, 255, 255);
   font-size:36px;
   text-align: justify;
   padding: 20px;
-
 }
-
 
 .trip {
   font-family: Arial, Helvetica, sans-serif;
