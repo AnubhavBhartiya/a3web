@@ -289,6 +289,15 @@ padding: 20px;
 	position: relative;
 }
 
+.trip4image {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("BoisBlancIsland/BBI8.jpeg");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
 .hero-text {
 	text-align: center;
 	position: absolute;
@@ -318,8 +327,8 @@ p.thick {
   background-repeat: no-repeat;
   background-size: cover;
 }
-  /* parallax text */
 
+/* parallax text */
 .parallaxtext{
   height:600px;
   background-color:rgb(255, 255, 255);
