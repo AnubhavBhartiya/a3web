@@ -265,7 +265,6 @@ padding: 20px;
  }
 
 .footer {
-   
    background-color: #21639e;
    color:black;
    text-align:center;
@@ -449,7 +448,8 @@ body {
 /* Image slider CSS*/
 * {box-sizing: border-box}
 .mySlides1, .mySlides2 {display: none}
-img {vertical-align: middle;
+img {
+vertical-align: middle;
 width:100%;
 }
 
