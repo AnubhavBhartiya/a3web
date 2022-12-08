@@ -449,7 +449,9 @@ body {
 /* Image slider CSS*/
 * {box-sizing: border-box}
 .mySlides1, .mySlides2 {display: none}
-img {vertical-align: middle;}
+img {vertical-align: middle;
+width:100%;
+}
 
 /* Slideshow container */
 .slideshow-container {
