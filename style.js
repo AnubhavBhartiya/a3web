@@ -5,6 +5,7 @@ let slideId = ["mySlides1", "mySlides2"]
 showSlides(1, 0);
 showSlides(1, 1);
 
+<!--show image in slides-->
 function plusSlides(n, no) {
   showSlides(slideIndex[no] += n, no);
 }
