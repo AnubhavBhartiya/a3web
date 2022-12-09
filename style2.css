@@ -148,7 +148,7 @@ body {
   text-align: center;
 }
 
-/* * * * * * Body Font Styling * * * * */ 
+/* * * * * * Body Font Styling (contributed by all group members)* * * * */ 
 
 body, html {
   height: 100%;
@@ -220,7 +220,7 @@ h4 {
   letter-spacing: 1px;
 }
 
-/*trip 4 paragraph*/
+/*trip 4 paragraph* Mingxuan Su*/
 .p5 {
 color: #000000;
 font-size: 16px;
@@ -312,6 +312,7 @@ padding: 20px;
 	position: relative;
 }
 
+/* change trip4 background image Mingxuan Su*/
 .trip4image {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("BoisBlancIsland/BBI8.jpeg");
 	height: 50%;
@@ -338,6 +339,7 @@ p.thick {
 }
 
 /* Create the parallax scrolling effect Mingxuan Su*/
+/* designed by w3schools, Changes have been made*/
 .parallax {
   /* The image used */
   background-image: url("Visuals/bgimage.jpg");
@@ -350,7 +352,7 @@ p.thick {
   background-size: cover;
 }
 
-/* parallax text */
+/* parallax text style Mingxuan Su*/
 .parallaxtext{
   height:600px;
   background-color:rgb(255, 255, 255);
@@ -359,7 +361,8 @@ p.thick {
   padding: 20px;
 }
 
-/* itinerry table Mingxuan Su*/
+/* itinerry table design for 4 trips Mingxuan Su*/
+/* reference source : https://www.w3schools.com/html/html_tables.asp Changes have been made */
 .trip {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
@@ -367,16 +370,17 @@ p.thick {
   margin-left: 20px;
 }
 
+/*two colors for different rows Mingxuan Su*/
 .trip tr:nth-child(odd){background-color: #f2f2f2;}
+.trip tr:nth-child(even){background-color: #cfcfcf;}
 
+/*table style and alignment Mingxuan Su*/
 .trip td, #trip1 th {
   border: 1px solid #ddd;
   padding: 8px;
 }
 
-.trip tr:nth-child(even){background-color: #cfcfcf;}
-
-
+/*table heading Mingxuan Su*/
 .trip th {
   text-align: left;
   background-color: #21639e;
@@ -385,7 +389,8 @@ p.thick {
 }
 /* itinerry table end*/
 
-/* Trip highlight list */
+/* Trip highlight list for all 4 trips Mingxuan Su*/
+/* Modified based on w3schools*/
 ul {
   list-style: circle;
 }
@@ -401,7 +406,7 @@ body {
   font-family: Arial;
 }
 
-
+/* Created by Meet, modified by Mingxuan Su to align photos with the text */
 .row {
   display: -ms-flexbox; /* IE10 */
   display: flex;
@@ -446,6 +451,8 @@ body {
 /* Image Carousel for a better and efficient stacking of images in a single frame Anubhav Bhartiya*/
 * {box-sizing: border-box}
 .mySlides1, .mySlides2 {display: none}
+
+/* resize ourtrip page Images, as suggested in class, remove style from html page and add them back in css Mingxuan Su */
 img {
 vertical-align: middle;
 max-width:100%;
